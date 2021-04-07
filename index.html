@@ -1,56 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youcom-Bootstrap</title>
     <link rel="stylesheet" href="./public/css/app.css">
-    
+
 </head>
-<body>
+
+<body class="container-lg">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            <a class="navbar-brand" href="#"><img src="./public/img/logo-horizontal-fond-noir-couleur.png" alt="" width="80%"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="#"><img src="./public/img/logo-horizontal-fond-noir-couleur.png" alt=""
+                    width="80%"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup"> <!--just-cont-end ICI pour qu'il se mettes a la fin-->
-              <div class="navbar-nav">
-                  <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <a class="nav-link" href="#">Home </a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item active text-white">
+                        <div class="text-center mx-3 my-2">
+                            <img src="./public/img/home-icon.png" class="img-fluid icone" alt="">
+                            <br>
+                            <span class="p-sous-eclosion">HOME</span>
                         </div>
-                        <div class="col">
-                            <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item active text-white">
+                        <div class="text-center mx-3 my-2">
+                            <img src="./public/img/packages-icon.png" class="img-fluid icone" alt="">
+                            <br>
+                            <span class="p-sous-eclosion" >PACKAGES</span>
                         </div>
-                        <div class="col">
-                            <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item active text-white">
+                        <div class="text-center mx-3 my-2">
+                            <img src="./public/img/outils-icon.png" class="img-fluid icone" alt="">
+                            <br>
+                            <span class="p-sous-eclosion">OUTILS</span>
                         </div>
-                        <div class="col">
-                            <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item active text-white">
+                        <div class="text-center mx-3 my-2">
+                            <img src="./public/img/projets-icon.png" class="img-fluid icone" alt="">
+                            <br>
+                            <span class="p-sous-eclosion">PROJETS</span>
                         </div>
-                        <div class="col">
-                            <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item active text-white">
+                        <div class="text-center mx-3 my-2">
+                            <img src="./public/img/temoignages-icon.png" class="img-fluid icone" alt="">
+                            <br>
+                            <span class="p-sous-eclosion">TEMOIGNAGES</span>
                         </div>
-                        <div class="col">
-                            <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item active text-white">
+                        <div class="text-center mx-3 my-2">
+                            <img src="./public/img/contact-icon.png" class="img-fluid icone" alt="">
+                            <br>
+                            <span class="p-sous-eclosion">CONTACT</span>
                         </div>
-                    </div>  
-                </div>
-              </div>
+                    </li>
+                </ul>
             </div>
-          </nav>
+        </nav>
 
     </header>
 
+    <!-- Debut section sous Nav -->
     <section>
+        <div class="package">
+            <div class="container w-75 ">
+                <div class="row  text-white align-items-center">
+                    <div class="col-3 pt-3">
+                        <img src="./public/img/packages.png" class="icone img-fluid" width="80%" alt="">
+                    </div>
+                    <div class="col pt-3">
+                        <h2 class="txt-haut">A chaque étape son pack</h2>
+                        <p>naître, grandir, prospérer</p>
+                    </div>
 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Eclosion -->
+    <section>
+        <div class="eclosion pb-3">
+            <div class="ecrit-eclosion mt-3 text-center text-white">
+                <h2>Eclosion</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="./public/img/icon-eclosion.png" class="eclo" width="60%" alt="">
+                    </div>
+                    <div class="col pt-4 text-evo">
+                        <p>Le pack eclosion est parfait pour le début d'une activité</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi numquam soluta quaerat
+                            eum labore, dignissimos ex</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section sous Eclosion -->
+    <section>
+        <div class="sous-eclosion ">
+            <div class="container">
+                <div class="row pt-3">
+                    <div class="col-3 text-center">
+                        <img src="./public/img/Logo-logo.png" class="logo-sous-eclosion" width="40%" alt="">
+                        <p class="p-sous-eclosion">Logo</p>
+                    </div>
+                    <div class="col-3 text-center">
+                        <img src="./public/img/icon-charte-graphic.png" class="logo-sous-eclosion" width="40%" alt="">
+                        <p class="p-sous-eclosion">charte graphique</p>
+                    </div>
+                    <div class="col-3 text-center">
+                        <img src="./public/img/site-single-page.png" class="logo-sous-eclosion" width="40%" alt="">
+                        <p class="p-sous-eclosion">Site single page</p>
+                    </div>
+                    <div class="col-3 text-center">
+                        <img src="./public/img/carte-visite.png" class="logo-sous-eclosion" width="40%" alt="">
+                        <p class="p-sous-eclosion">Carte de visite</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section evolution -->
+    <section>
+        <div class="eclosion pb-3">
+            <div class="ecrit-eclosion mt-3 text-center text-white">
+                <h2>Evolution</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="./public/img/icon-evolution.png" class="eclo" width="60%" alt="">
+                    </div>
+                    <div class="col pt-4 text-evo">
+                        <p>Le pack evolution vous propose une identité visuelle complète Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Fuga, fugit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi numquam soluta quaerat
+                            eum labore, dignissimos ex</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section sous evolution -->
+    <section>
+        <div class="sous-evolution">
+            <div class="container">
+                <div class="row pt-3">
+                    <div class="col-3 text-center">
+                        <img src="./public/img/Logo-logo.png" class="logo-sous-eclosion" width="40%" alt="">
+                        <p class="p-sous-eclosion">Logo</p>
+                    </div>
+                    <div class="col-3 text-center">
+                        <img src="./public/img/icon-charte-graphic.png" class="logo-sous-eclosion" width="40%" alt="">
+                        <p class="p-sous-eclosion">charte graphique</p>
+                    </div>
+                    <div class="col-3 text-center">
+                        <img src="./public/img/site-vitrine.png" class="logo-sous-eclosion" width="40%" alt="">
+                        <p class="p-sous-eclosion">Site vitrine</p>
+                    </div>
+                    <div class="col-3 text-center">
+                        <img src="./public/img/reseaux-sociaux.png" class="logo-sous-eclosion" width="40%" alt="">
+                        <p class="p-sous-eclosion">résaux sociaux</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <img src="./public/img/carte-visite.png" class="logo-sous-eclosion" width="9%" alt="">
+                        <p class="p-sous-eclosion">carte de visite</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Envol -->
+    <section>
+        <div class="eclosion pb-3">
+            <div class="ecrit-eclosion mt-3 text-center text-white">
+                <h2>Envol</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="./public/img/icon-envole.png" class="eclo" width="60%" alt="">
+                    </div>
+                    <div class="col pt-4 text-evo">
+                        <p>Le pack envol est destiné à accroître complète Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Fuga, fugit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi numquam soluta quaerat
+                            eum labore, dignissimos ex</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section sous-envol -->
+    <section>
+        <div class="sous-eclosion av-footer ">
+            <div class="container  av-footer ">
+                <div class="row pt-3  av-footer">
+                    <div class="col text-center">
+                        <img src="./public/img/icon-analyse-flux-web.png" class="logo-sous-eclosion" width="40%" alt="">
+                        <p class="p-sous-eclosion">Analyse du flux web</p>
+                    </div>
+                    <div class="col text-center">
+                        <img src="./public/img/icon-campagne-facebook.png" class="logo-sous-eclosion" width="40%"
+                            alt="">
+                        <p class="p-sous-eclosion">Campagne Facebook</p>
+                    </div>
+                    <div class="col text-center">
+                        <img src="./public/img/icon-campagne-adwords.png" class="logo-sous-eclosion" width="40%" alt="">
+                        <p class="p-sous-eclosion">Campagne Adwords</p>
+                    </div>
+                    <div class="col text-center">
+                        <img src="./public/img/icon-campagne-e-mailing.png" class="logo-sous-eclosion" width="40%"
+                            alt="">
+                        <p class="p-sous-eclosion">Campagne e-mailing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
+        <div class="footer bg-dark">
+            <div class="container">
+                <div class="row text-white pt-5">
+                    <div class="col">
+                        <h4>Packs</h4>
+                    </div>
+                    <div class="col">
+                        <h4>Outils</h4>
+                    </div>
+                    <div class="col">
+                        <h4>Social media</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="./public/img/icon-eclosion.png" class="ic-foot" width="25%" alt="">
+                        <img src="./public/img/icon-evolution.png" class="ic-foot" width="25%" alt="">
+                        <img src="./public/img/icon-envole.png" class="ic-foot" width="25%"="">
+                    </div>
+                    <div class="col">
+                        <img src="./public/img/identite-graphique.png" class="ic-foot" width="25%" alt="">
+                        <img src="./public/img/reseaux-sociaux.png" class="ic-foot" width="25%" alt="">
+                        <img src="./public/img/print.png" width="25%" class="ic-foot" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./public/img/social-f.png" width="25%" class="ic-foot" alt="">
+                        <img src="./public/img/google-plus.png" width="25%" class="ic-foot" alt="">
+                    </div>
+                </div>
 
+            </div>
+        </div>
     </footer>
 
     <!-- jquery -->
@@ -60,4 +274,5 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 
 </body>
+
 </html>
